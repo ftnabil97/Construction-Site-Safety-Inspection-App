@@ -33,12 +33,12 @@ To install this application, go through the following steps:
 # Results
 The results folder contains the output images of the application and image capture with the webcam.
 
-![](results/cap1.jpg)
+![](results/ss.png)
 ![](results/ss1.jpg)
 ![](results/ss2.png)
 ![](results/ss3.png)
 ![](results/ss4.png)
-![](results/ss.png) ![](results/ss5.png)
+![](results/ss5.png)
 
 # Future Upgrade
 - Video uploading option and detecting safety gears from uploaded videos can be added in the future versions.
