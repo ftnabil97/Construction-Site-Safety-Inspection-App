@@ -18,8 +18,11 @@ Construction site safety is of utmost importance in the construction industry. A
 - Detailed Results: The app provides detailed results, highlighting the detected safety gears, probability percentage and their locations in the images or the webcam frames.
 - Enhance Safety Compliance: Use the app to inspect and keep records to ensure compliance with safety regulations and guidelines at construction sites.
   
+# Code
+This repo contains [the Python](construction_site_safety_inspection_app.py) code responsible for developing the application.
+
 # Object Detection Model
-A custom-trained object detection model _[(best.pt)](https://github.com/ftnabil97/Construction-Site-Safety-Gears-Detection)_ was created using the [**_Ultralytics_**](https://github.com/ultralytics/ultralytics) library, is used in this application to detect the objects. The model was trained with a [custom made dataset](https://universe.roboflow.com/construction-ppe-dataset/construction-safety-gears-vcbdq) consisting of 424 images.
+The model folder contains a custom-trained object detection model _[(best.pt)](https://github.com/ftnabil97/Construction-Site-Safety-Gears-Detection)_ that was created using the [**_Ultralytics_**](https://github.com/ultralytics/ultralytics) library and it's used in this application to detect the objects. The model was trained with a [custom made dataset](https://universe.roboflow.com/construction-ppe-dataset/construction-safety-gears-vcbdq) consisting of 424 images.
 
 # Releases
 This is the initial release of the application. The installation file can be found on the [Releases](https://github.com/ftnabil97/Construction-Site-Safety-Inspection-App/releases) section of this repository.
