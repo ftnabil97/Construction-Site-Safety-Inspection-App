@@ -19,7 +19,7 @@ Construction site safety is of utmost importance in the construction industry. A
 - Enhance Safety Compliance: Use the app to inspect and keep records to ensure compliance with safety regulations and guidelines at construction sites.
   
 # Code
-This repo contains [the Python](construction_site_safety_inspection_app.py) code responsible for developing the application.
+This repo contains the Python code named [construction_site_safety_inspection_app.py](construction_site_safety_inspection_app.py) responsible for developing the application.
 
 # Object Detection Model
 The model folder contains a custom-trained object detection model _[(best.pt)](https://github.com/ftnabil97/Construction-Site-Safety-Gears-Detection)_ that was created using the [**_Ultralytics_**](https://github.com/ultralytics/ultralytics) library and it's used in this application to detect the objects. The model was trained with a [custom made dataset](https://universe.roboflow.com/construction-ppe-dataset/construction-safety-gears-vcbdq) consisting of 424 images.
